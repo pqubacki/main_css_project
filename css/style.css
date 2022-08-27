@@ -2,17 +2,7 @@
     font-family: "Roboto";
     src: url(./fonts/Roboto-Regular.ttf) format('truetype');
 }
-/*
-@font-face {
-    font-family: "Roboto-Light";
-    src: url(./fonts/Roboto-LightItalic.ttf) format('truetype');
-}
 
-@font-face {
-    font-family: "Roboto-Bold";
-    src: url(./fonts/Roboto-Bold.ttf) format('truetype');
-}
-*/
 /* custom properties */
 :root{
     --clr-dark: #1f2937;
@@ -20,10 +10,6 @@
     --clr-neutral: #f9faf8;
     --clr-accent: #3882f6;
     --ff-primary: "Roboto", sans-serif;
-    /*
-    --ff-light: "Roboto-Light", sans-serif;
-    --ff-bold: "Roboto-Bold", sans-serif;
-    */
     }
 
 /* reset styles */
@@ -43,9 +29,6 @@ img {
     object-fit: cover;
 }
 
-
-
-/*    main css    */
 /* utility classes */
 .dark-bg{
     background-color: var(--clr-dark);
@@ -54,6 +37,7 @@ img {
 .accent-bg{
     background-color: var(--clr-accent);
 }
+
 .light-bg{
     background-color: var(--clr-light);
 }
@@ -72,10 +56,8 @@ img {
 }
 
 body {
-    padding: 10rem;
     font-family: var(--ff-primary);
 }
-
 
 nav {
     font-family: var(--);
@@ -110,7 +92,6 @@ padding: 0rem 10rem;
 .left, .right {
     width: 50%;
 }
-
 
 li{
     display: inline;
@@ -152,6 +133,10 @@ button {
     font-size: 1.125rem;
 }
 
+.gallery-container {
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
 .gallery{
     display: flex;
     justify-content: space-between;
@@ -169,7 +154,7 @@ figcaption{
 }
 
 .quote-container{
-padding: 6rem 14rem;
+padding: 6rem 22rem;
 }
 
 figure.quote{
